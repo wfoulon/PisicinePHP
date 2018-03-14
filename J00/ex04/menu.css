@@ -1,0 +1,59 @@
+body{
+    background-color: dimgray;
+    text-align: center; 
+    font-family: Arial;
+    font-size: 25px;
+    background-image: url(http://www.idesignhotel.com/wp-content/uploads/2014/06/restaurant-S18.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+h1{
+    color: white;
+    margin-top: 1000px;
+}
+
+li a{
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+li{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    width: 350px;
+    height: 30px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#menu ul li{
+    display: inherit;
+}
+
+#menu, #menu ul{
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul{
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu li:hover ul{
+    left: auto;
+}
+
+li:hover {
+    background-color: rgba(255, 0, 0, 0.3);
+}

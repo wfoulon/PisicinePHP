@@ -1,69 +1,66 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-	<meta charset="UTF-8" />
-	<title>Mendeleiev</title>
-	<style>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mendeleïev</title>
+		<style>
 		body {
 			font-family: "Arial";
 		}
 
 		h1 {
 			text-align: center;
-			font-size: 40px;
+			font-size: 65px;
 			border: 3px solid black;
 		}
 
         h2{
             text-align: center;
-            margin: 10px;
+			margin: 10px;
+			font-size: 1vw;
+			font-weight: bold;
         }
 
-        td {
-            min-width: 66px;
-        }
-
-        td.diatomic{
+        .diatomic{
             background-color:#6a3c70;
         }
 
-        td.noble-gaz{
+        .noble-gaz{
             background-color:#3bacce;
         }
 
-		td.other{
+		.other{
 			background-color: #d6b97d;
 		}
-        td.alcalin{
+        .alcalin{
             background-color:#df8e24;
         }
 
-        td.alcalin-dirt{
+        .alcalin-dirt{
             background-color:#8a6f35;
         }
 
-        td.transition{
+        .transition{
             background-color:#f7f02a;
         }
 
-        td.halogen{
+        .halogen{
             background-color:#ca60d8;
         }
 
-        td.metalloid{
+        .metalloid{
             background-color:#2ec748;
         }
 
-        td.unknown{
+        .unknown{
             background-color:#525252;
         }
 
-        td.lanthanides{
+        .lanthanides{
             background-color:#3c7069;
         }
 
-        td.actinides{
+        .actinides{
             background-color:#4b8230;
         }
 		p{
@@ -71,10 +68,23 @@
         }
 
         p.mass{
-            text-align: right;
-        }
-	</style>
-</head>
+			text-align: right;
+			font-size: 0.9vw;
+		}
+		
+		table {
+            width: 100%;
+			}
+			
+		td {
+            width: 4%;
+			}
+		
+		.num{
+			font-size: 0.9vw;
+		}
+		</style>
+	</head>
 <body>
 	<h1>Tableau périodique des éléments de Mendeleiev</h1>
 	<table align="center" contenteditable="true">
