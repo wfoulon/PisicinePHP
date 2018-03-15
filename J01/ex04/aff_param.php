@@ -1,9 +1,12 @@
 #!/usr/bin/php 
 <?PHP 
-$index = 1;
-while ($index < $argc)
+
+foreach($argv as $elem)
 {
-	echo "$argv[$index]\n";
-	$index++;
+	if($elem != $argv[0])
+	{
+		echo "$elem";
+		echo "\n";
+	}
 }
 ?>
