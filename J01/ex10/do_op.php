@@ -49,20 +49,20 @@ function ft_modul($n1, $n2)
 }
 
 if ($argc != 4)
-    echo "Incorrect Parameters\n";
+   echo "Incorrect Parameters\n";
 else
-    {
-        unset($argv[0]);
-        $tab = ft_remove_space($argv);
-        if ($tab[1] == "+")
-            ft_add($tab[0], $tab[2]);
-        else if ($tab[1] == "-")
-            ft_sub($tab[0], $tab[2]);
-        else if ($tab[1] == "/")
-            ft_div($tab[0], $tab[2]);
-        else if ($tab[1] == "*")
-            ft_mult($tab[0], $tab[2]);
-        else if($tab[1] == "%")
-            ft_modul($tab[0], $tab[2]);
+{
+    unset($argv[0]);
+    $tab = ft_remove_space($argv);
+    if ($tab[1] == "+")
+        ft_add($tab[0], $tab[2]);
+    else if ($tab[1] == "-")
+        ft_sub($tab[0], $tab[2]);
+    else if ($tab[1] == "/")
+        ft_div($tab[0], $tab[2]);
+    else if ($tab[1] == "*")
+        ft_mult($tab[0], $tab[2]);
+    else if($tab[1] == "%")
+        ft_modul($tab[0], $tab[2]);
     }
 ?>
