@@ -17,7 +17,7 @@ while ($handle && !feof($handle))
                 echo "Le chiffre " .$number . " est Impair\n";
         }
         else
-                echo "" .$number . " n'est pas un chiffre\n";
+                echo " '$number'  n'est pas un chiffre\n";
     }
 }
 fclose($handle);
