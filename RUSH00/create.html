@@ -1,0 +1,84 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Création</title>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<style>
+		body {
+			background: linear-gradient(to right, rgb(16, 133, 223), rgb(128, 113, 0));
+			padding-top: 200px;
+		}
+	
+		.center {
+			background-color: rgb(100, 100, 100);
+			padding-top: 15px;
+			padding-bottom: 15px;
+			margin: auto;
+			width: 50%;
+			border: 3px solid black;
+			text-align: center;
+			-webkit-box-shadow: 9px 10px 33px 3px rgba(48, 51, 39, 1);
+			-moz-box-shadow: 9px 10px 33px 3px rgba(48, 51, 39, 1);
+			box-shadow: 9px 10px 33px 3px rgba(48, 51, 39, 1);
+		}
+	
+		h1 {
+			color: rgb(0, 204, 0);
+		}
+	
+		input {
+			margin-top: 10px;
+			width: 50%;
+		}
+	
+		a {
+			decoration: none;
+		}
+	
+		.button {
+			width: 25%;
+		}
+	
+		.button:hover {
+			background-color: rgba(125, 189, 147, 1);
+		}
+	
+		a:visited {
+			color: rgb(0, 204, 102);
+		}
+	
+		a:link {
+			color: rgb(0, 204, 102);
+		}
+	
+		a:hover {
+			color: red;
+		}
+	
+		input:focus {
+			background-color: rgb(215, 215, 215);
+			border: 3px solid #555;
+		}
+	</style>
+</head>
+<body>
+	<div class="center">
+	<form action="create.php" method="POST">
+		<h1>Create new account</h1>
+		<input type="text" name="login" placeholder="Identifiant" autofocus />
+		<br />
+		<input type="password" name="passwd" placeholder="Mot de passe" />
+		<br />
+		<input type="password" name="confpasswd" placeholder="Confirmer le mot de passe" />
+		<br />
+		<center>
+		<div class="g-recaptcha" data-sitekey="6LeLP1AUAAAAAI2CiGGLnKIKQIsJdEksmjOvdnH3"></div>
+		</center>
+		<input class="button" type="submit" name="submit" value="OK" />
+	</form>
+	<hr />
+	<a href="index.php">Back</a>
+	</div>
+</body>
+
+</html>

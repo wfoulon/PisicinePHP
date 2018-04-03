@@ -1,0 +1,305 @@
+body{
+	margin: 0 auto;
+    padding: 0;
+}
+
+ul, li, a, img{
+	margin: 0;
+    padding: 0;
+}
+
+
+/***************    CONTAINER TOP   ******************/
+
+header {
+	background-color: #3A3939;
+	width: 100%;
+}
+body {
+	/* background-image: url("../img/background.png"); */
+		background-color: grey;
+}
+.newb {
+	background-image: url("http://www.kinyu-z.net/data/wallpapers/223/1485715.jpg");
+	background-color: #cccccc;
+}
+.ete {
+	background-image: url("http://www.desktopas.com/files/2013/10/Best-Top-Desktop-Summer-Wallpapers-Hd-Wallpaper-Summer-Pictures-46-1600x1200.jpg");
+	background-color: #cccccc;
+}
+.hiverb {
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2015/12/Happy-snowman-winter-wallpapers.jpg");
+	background-color: #cccccc;
+}
+.hipsterb {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5cMFBsH_7_00JoEYC-EOmDhWe-tqdmy5Z8TsPNlRz7mnyYfihhg");
+	background-color: #cccccc;
+}
+/* MENU */
+#navigation {
+	padding: 20px;
+	list-style: none;
+}
+.chaussette {
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 60px;
+}
+
+.chaussette2 {
+	display: inline-block;
+	margin-right: 200px;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+.imageindex{
+	display: inline-block;
+	height: 350px;
+	width: 370px;
+}
+
+.infoimg {
+	position: relative;
+	visibility: hidden;
+	padding-bottom: 95px;
+	margin-top: -150px; 
+	z-index: 9999;
+	-webkit-transition: background-color 0.s;
+	-moz-transition: background-color 0.s;
+	transition: background-color 0.s;
+}
+
+.chaussette:hover div.infoimg{
+	visibility: visible;
+	background-color: rgba(85, 85, 85, 0.7);
+}
+
+.chaussette2:hover div.infoimg{
+	visibility: visible;
+	background-color: rgba(85, 85, 85, 0.7);
+}
+
+.content{
+	margin-top: 200px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.block-1{
+	background-color: white;
+	border: 5px solid black;
+	display: inline-block;
+	margin: 100px;
+	text-align: center;
+}
+#milieu{
+	width: 80%;	
+	height: 70%;
+	background-color: transparent;
+	text-align: center;
+	margin: auto;
+}
+
+ .hr{
+ 	height: 20px;
+ 	background-color: #AB0000;
+ 	width: 100%;
+ 	display: block;
+ }
+
+#navigation li {
+	padding-left: 30px; 
+	display: inline ;
+}
+
+#navigation li a {
+	text-decoration: none ;
+	color: white;
+	font-family: impact;
+	font-size: 64px;
+	line-height: 1em ;
+}
+
+.item-left {
+	display: inline-block;
+	margin-left: 20px;
+	color: red;
+	background-color: white;
+	border: 2px solid black;
+}
+.logoimg
+{
+	width: 70px;
+	height: 70px;
+}
+#navigation .logo {
+	padding-right: 70px;
+}
+
+#navigation .basket {
+	padding-left: 1050px;
+}
+
+#navigation .menu a:hover, #navigation .menu a:focus, #navigation .menu a:active {
+  background: #900 ;
+  text-decoration: underline ;
+}
+
+/* CONNEXION / INSCRIPTION */
+
+header .connexion {
+	position: absolute;
+	top: 25px;
+	right: 13px;
+}
+
+header .connexion a {
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 50px;
+	line-height: 1em;
+	padding: 10px;
+}
+
+.connexion .co:hover, .connexion .co:focus, .connexion .co:active {
+  background: #900 ;
+  text-decoration: underline ;
+}
+
+
+/* PROFIL */
+
+#profil, #profil ul {
+	list-style: none;
+	text-align: center;
+}
+
+#profil {
+	width: 200px;
+}
+
+#profil ul li {
+	display: inherit;
+}
+
+#profil .test a {
+	color: white;
+}
+
+#profil .test1 a {
+	color: white;
+}
+
+#profil ul{
+    position: absolute;
+    left: -999em;
+    text-align: left;
+	z-index: 1000;
+
+}
+
+#profil li:hover ul{
+    left: auto;
+}
+
+
+.test2 {
+	background: grey;
+
+}
+.test1 a{
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+	display: block;
+}
+
+.test a{
+    text-align: center;
+    display: inline-block;
+}
+
+/********** CONTENT ****************/
+
+/*#container {
+	display: inline-block;
+	padding: 0;
+	width: 100%;
+}
+
+.categorie-1{
+	display: inline-block;
+	text-align: center;
+}
+
+.categorie-1 img {
+	height: 500px;
+	width: 500px;
+}
+
+.categorie-2{
+	display: inline-block;
+	text-align: center;
+}
+
+.categorie-2 a img {
+	height: 500px;
+	width: 500px;
+}
+.categorie-3{
+	display: inline-block;
+	text-align: center;
+}
+
+.categorie-3 img {
+	height: 500px;
+	width: 500px;
+}
+
+.categorie-4{
+	display: inline-block;
+	text-align: center;
+}
+
+.categorie-4 img {
+	height: 500px;
+	width: 500px;
+}*/
+
+#container {
+	list-style: none;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#container li {
+	padding: 0px 50px 0px 50px;
+	display: inline;
+	text-align: center;
+}
+
+
+.block-img li img {
+	padding-top: 9px;
+	height: 350px;
+	width: 350px;
+}
+
+.block-img .cat-1{
+	padding-left: 25px;
+}
+#container li a {
+	text-decoration: none ;
+	color: black;
+	font-family: arial;
+	font-size: 64px;
+	line-height: 1em ;
+	padding: 3px;
+/*	padding-bottom: 200px;*/
+}
+
+#container li a:hover, #container li a:focus, #container li a:active {
+  background: #900 ;
+  color: white;
+}
